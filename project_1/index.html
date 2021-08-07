@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+            </div>
+            <div class="menu">
+                <div class="links">
+                    <a href="#courses_href">Курсы</a>
+                </div>
+                <div class="links">
+                    <a href="#contact_href">Контакты</a>
+                </div>
+                <div class="links">
+                    <a href="#guitars_href">Популярные гитары</a>
+                    
+                </div>
+                <div class="links">
+                    <a href="#form_href">Записаться на урок</a>
+                </div>
+            </div>
+            <div class="menu-burger">
+
+            </div>
+        </div>
+    </header>
+    <main>
+    <div class="wrapper">
+        <section class="form">
+            <div class="reg_form">
+                <p class="form_text" id="form_href">Заполнение заявки</p>
+                <form action="">
+                    <input type="text" placeholder="Имя">
+                    <input type="text" placeholder="Фамилия">
+                    <input type="tel" placeholder="Номер телефона">
+                    <input type="email" placeholder="Email">
+                    <a href="#" class="btn_form">
+                        Отправить
+                    </a>
+                </form>
+            </div>
+        </section>
+    </div>
+    </main>
+    <section>
+        <div class="wrapper">
+            <div class="courses_title" >
+            </div>
+            <div class="guitars_catalog" id="guitars_href">
+                
+                <div class="guitars-item">
+                    <div class="guitars guitars_1">
+                    </div>
+                    <div class="guitars_name_item">
+                        SQUIER SA-150
+                    </div>
+                </div>
+                <div class="guitars-item">
+                    <div class="guitars guitars_2">
+                    </div>
+                    <div class="guitars_name_item">
+                        Yamaha F310 
+                    </div>
+                </div>
+                <div class="guitars-item">
+                    <div class="guitars guitars_3">
+                    </div>
+                    <div class="guitars_name_item">
+                        Greg Bennett D1
+                    </div>
+                </div>
+                <div class="guitars-item">
+                    <div class="guitars guitars_4">
+                    </div>
+                    <div class="guitars_name_item">
+                        Fender CD60
+                    </div>
+                </div>
+                <div class="guitars-item">
+                    <div class="guitars guitars_5">
+                    </div>
+                    <div class="guitars_name_item">
+                        Yamaha FG800M
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+    <section class="courses_sec">
+        <div class="wrapper">
+            <div class="courses_title" id="courses_href">
+                Курсы
+            </div>
+            <div class="courses_subtitle">
+                Наша музыкальная школа предлагает разнообразные курсы 
+                для изучения игры на гитаре и оттачивания навыков. 
+                Если вы предпочитаете частные уроки, 
+                у нас есть что предложить вам и вашим детям.
+            </div>
+            <div class="courses_box">
+                <div class="courses_box-item">
+                    <div class="courses_img courses_img_kids">
+                    </div>
+                    <div class="name_item">
+                        Дети
+                    </div>
+                </div>
+                <div class="courses_box-item">
+                    <div class="courses_img courses_img_teens">
+                    </div>
+                    <div class="name_item">
+                        Подростки
+                    </div>
+                </div>
+                <div class="courses_box-item">
+                    <div class="courses_img courses_img_abults">
+                    </div>
+                    <div class="name_item">
+                        Взрослые
+                    </div>
+                </div>
+                <div class="courses_box-item">
+                    <div class="courses_img courses_img_private_lessons">
+                    </div>
+                    <div class="name_item">
+                        Частные занятия
+                    </div>
+                </div>
+        </div>
+        </div>
+    </section>
+    <section class="video-box">
+        <div class="courses_title">
+            Видео уроки
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/zbSF_3azDsw"></iframe>
+        </div>
+    </section>
+    <section class="teachers">
+        <div class="wrapper">
+            <div class="teachers_title">
+                Преподаватели
+            </div>
+            <div class="teachers_box">
+                    <div class="teachers_box-item">
+                        <div class="teachers_img teachers_img_team_1">
+                        </div>
+                        <div class="teachers_name_item">
+                            Наталья Портер
+                        </div>
+                    </div>
+                    <div class="teachers_box-item">
+                        <div class="teachers_img teachers_img_team_2">
+                        </div>
+                        <div class="teachers_name_item">
+                            Евгений Растушенко
+                        </div>
+                    </div>
+                    <div class="teachers_box-item">
+                        <div class="teachers_img teachers_img_team_3">
+                        </div>
+                        <div class="teachers_name_item">
+                            Елена Лабалова
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact_href">
+        <div class="number_name">
+            Контакты
+        </div>
+        <div class="footer_contact">
+            <a href="tel:+375297658791">+375(29)7658791</a>
+        </div>
+        <div class="footer">
+            &#169; 2021 All Rights Reserved.
+        </div>
+    </footer>
+    <script>
+        let menu = document.querySelector('.menu');
+        let btn = document.querySelector('.menu-burger');
+        btn.addEventListener('click', function() {
+        menu.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>
